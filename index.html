@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 8.1.1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha256-VHqXKFhhMxcpubYf9xiWdCiojEbY9NexQ4jh8AxbvcM=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"yoursite.com","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.27.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+
+    <meta name="description" content="Supurise Motherfucker!">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Allen Zhu&#39;s Blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Allen Zhu&#39;s Blog">
+<meta property="og:description" content="Supurise Motherfucker!">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Zhu Puwen">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://yoursite.com/">
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Allen Zhu's Blog</title>
+  
+
+
+
+
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous" defer></script>
+<script src="/js/utils.js" defer></script><script src="/js/motion.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/next-boot.js" defer></script>
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Allen Zhu's Blog" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Allen Zhu's Blog</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">Hello, world.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Zhu Puwen</p>
+  <div class="site-description" itemprop="description">Supurise Motherfucker!</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2026/03/03/openclaw-feishu-tutorial/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Zhu Puwen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Allen Zhu's Blog">
+      <meta itemprop="description" content="Supurise Motherfucker!">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | Allen Zhu's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2026/03/03/openclaw-feishu-tutorial/" class="post-title-link" itemprop="url">OpenClaw 对接飞书（Feishu）最详细教程</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2026-03-03 18:45:00 / 修改时间：14:50:34" itemprop="dateCreated datePublished" datetime="2026-03-03T18:45:00+08:00">2026-03-03</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">技术教程</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>作者：DemonWutian<br>日期：2026年3月3日<br>版本：v1.0 最终版</p>
+</blockquote>
+<hr>
+<h2 id="📋-目录"><a href="#📋-目录" class="headerlink" title="📋 目录"></a>📋 目录</h2><ol>
+<li><a href="#前言">前言</a></li>
+<li><a href="#准备工作">准备工作</a></li>
+<li><a href="#第一步安装飞书插件">第一步：安装飞书插件</a></li>
+<li><a href="#第二步创建飞书应用">第二步：创建飞书应用</a></li>
+<li><a href="#第三步配置-openclaw">第三步：配置 OpenClaw</a></li>
+<li><a href="#第四步启动与测试">第四步：启动与测试</a></li>
+<li><a href="#高级配置">高级配置</a></li>
+<li><a href="#常用命令一览">常用命令一览</a></li>
+<li><a href="#常见问题与解决方案">常见问题与解决方案</a></li>
+<li><a href="#配置参数详解">配置参数详解</a></li>
+<li><a href="#总结与后续">总结与后续</a></li>
+</ol>
+<hr>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="什么是-OpenClaw？"><a href="#什么是-OpenClaw？" class="headerlink" title="什么是 OpenClaw？"></a>什么是 OpenClaw？</h3><p>OpenClaw 是一个开源的 AI 助手框架，可以帮助你快速搭建自己的 AI 助手。它支持多种消息渠道，包括 Telegram、Discord、Slack、WhatsApp，以及我们今天要介绍的飞书（Feishu/Lark）。</p>
+<h3 id="为什么要对接飞书？"><a href="#为什么要对接飞书？" class="headerlink" title="为什么要对接飞书？"></a>为什么要对接飞书？</h3><p>飞书是字节跳动推出的企业协作平台，在国内企业中使用广泛。通过将 OpenClaw 对接飞书，你可以：</p>
+<ul>
+<li>🤖 在飞书上与 AI 助手对话</li>
+<li>📚 让 AI 帮你处理工作事务</li>
+<li>🔧 集成到企业工作流中</li>
+<li>📊 实现自动化办公</li>
+</ul>
+<hr>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="环境要求"><a href="#环境要求" class="headerlink" title="环境要求"></a>环境要求</h3><p>在开始之前，请确保你的环境满足以下要求：</p>
+<table>
+<thead>
+<tr>
+<th>要求</th>
+<th>说明</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>操作系统</td>
+<td>Linux/macOS/Windows (WSL)</td>
+<td>推荐使用 Linux 或 macOS</td>
+</tr>
+<tr>
+<td>Node.js</td>
+<td>v18 或更高版本</td>
+<td><code>node -v</code> 检查</td>
+</tr>
+<tr>
+<td>npm</td>
+<td>v9 或更高版本</td>
+<td><code>npm -v</code> 检查</td>
+</tr>
+<tr>
+<td>Git</td>
+<td>任意版本</td>
+<td>用于克隆仓库</td>
+</tr>
+</tbody></table>
+<h3 id="必备账号"><a href="#必备账号" class="headerlink" title="必备账号"></a>必备账号</h3><ul>
+<li><strong>飞书企业账号</strong>：你需要是一个飞书企业的成员，如果是企业管理员更好</li>
+<li><strong>GitHub 账号</strong>（可选）：用于下载 OpenClaw 源码</li>
+</ul>
+<h3 id="安装-OpenClaw"><a href="#安装-OpenClaw" class="headerlink" title="安装 OpenClaw"></a>安装 OpenClaw</h3><p>如果还没有安装 OpenClaw，请先安装：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 方式一：直接安装（推荐）</span></span><br><span class="line">curl -sL https://get.openclaw.ai | sh</span><br><span class="line"></span><br><span class="line"><span class="comment"># 方式二：手动安装</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/openclaw/openclaw.git</span><br><span class="line"><span class="built_in">cd</span> openclaw</span><br><span class="line">npm install</span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure>
+
+<p>安装完成后，运行初始化配置：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openclaw init</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="第一步：安装飞书插件"><a href="#第一步：安装飞书插件" class="headerlink" title="第一步：安装飞书插件"></a>第一步：安装飞书插件</h2><p>OpenClaw 通过插件系统支持不同的消息渠道。飞书插件是独立安装的。</p>
+<h3 id="1-1-安装命令"><a href="#1-1-安装命令" class="headerlink" title="1.1 安装命令"></a>1.1 安装命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 npm 安装（推荐）</span></span><br><span class="line">openclaw plugins install @openclaw/feishu</span><br><span class="line"></span><br><span class="line"><span class="comment"># 如果你是从源码运行 OpenClaw，使用本地路径</span></span><br><span class="line">openclaw plugins install ./extensions/feishu</span><br></pre></td></tr></table></figure>
+
+<h3 id="1-2-验证安装"><a href="#1-2-验证安装" class="headerlink" title="1.2 验证安装"></a>1.2 验证安装</h3><p>安装完成后，验证飞书插件是否安装成功：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openclaw plugins list</span><br></pre></td></tr></table></figure>
+
+<p>你应该能看到类似输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">📦 已安装的插件：</span><br><span class="line">  - @openclaw/feishu (enabled)</span><br><span class="line">  - @openclaw/core (enabled)</span><br></pre></td></tr></table></figure>
+
+<h3 id="1-3-常见问题"><a href="#1-3-常见问题" class="headerlink" title="1.3 常见问题"></a>1.3 常见问题</h3><p><strong>Q: 提示权限不足？</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 如果安装失败，尝试加上 sudo</span></span><br><span class="line"><span class="built_in">sudo</span> openclaw plugins install @openclaw/feishu</span><br></pre></td></tr></table></figure>
+
+<p><strong>Q: 网络问题导致安装失败？</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 设置国内镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br><span class="line"><span class="comment"># 然后重试</span></span><br><span class="line">openclaw plugins install @openclaw/feishu</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="第二步：创建飞书应用"><a href="#第二步：创建飞书应用" class="headerlink" title="第二步：创建飞书应用"></a>第二步：创建飞书应用</h2><p>这是整个流程中最关键的步骤。飞书应用相当于你在飞书平台上的”身份证”，有了它，OpenClaw 才能接收和发送消息。</p>
+<h3 id="2-1-访问飞书开放平台"><a href="#2-1-访问飞书开放平台" class="headerlink" title="2.1 访问飞书开放平台"></a>2.1 访问飞书开放平台</h3><p>打开浏览器，访问 <a href="https://open.feishu.cn/app">飞书开放平台</a>。</p>
+<blockquote>
+<p>📌 <strong>注意</strong>：如果是国际版 Lark 用户，请使用：<a href="https://open.larksuite.com/app">https://open.larksuite.com/app</a></p>
+</blockquote>
+<p>使用你的飞书账号登录。如果是企业账号，建议使用管理员账号。</p>
+<h3 id="2-2-创建新应用"><a href="#2-2-创建新应用" class="headerlink" title="2.2 创建新应用"></a>2.2 创建新应用</h3><p>登录后，你会看到应用管理页面。点击 <strong>「创建企业应用」</strong> 按钮。</p>
+<p><img src="./images/feishu-step2-create-app.png" alt="创建应用按钮位置"></p>
+<p>在弹出的对话框中填写：</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>示例</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>应用名称</td>
+<td>OpenClaw AI 助手</td>
+<td>你的机器人名字</td>
+</tr>
+<tr>
+<td>应用描述</td>
+<td>基于 OpenClaw 的 AI 助手</td>
+<td>简单描述功能</td>
+</tr>
+<tr>
+<td>应用图标</td>
+<td>📷</td>
+<td>上传一个图标，建议 1024x1024</td>
+</tr>
+</tbody></table>
+<p>填写完成后，点击 <strong>「确定创建」</strong>。</p>
+<h3 id="2-3-获取应用凭证"><a href="#2-3-获取应用凭证" class="headerlink" title="2.3 获取应用凭证"></a>2.3 获取应用凭证</h3><p>应用创建成功后，会自动跳转到应用详情页。你需要在这里获取两个关键凭证：</p>
+<ol>
+<li><strong>App ID</strong>（应用 ID）</li>
+<li><strong>App Secret</strong>（应用密钥）</li>
+</ol>
+<p>在左侧菜单点击 <strong>「凭证与基础信息」</strong>，在页面中间位置可以看到：</p>
+<ul>
+<li><strong>App ID</strong>：格式类似 <code>cli_xxxxxxxxxxxxxxxx</code></li>
+<li><strong>App Secret</strong>：点击「获取」按钮后会显示，<strong>只显示一次，请立即复制保存！</strong></li>
+</ul>
+<p><img src="./images/feishu-step3-credentials.png" alt="凭证页面"></p>
+<blockquote>
+<p>⚠️ <strong>重要提示</strong>：</p>
+<ul>
+<li>App Secret 只显示一次，请立即保存到安全的地方</li>
+<li>不要将 App Secret 泄露给他人</li>
+<li>如果泄露，需要在飞书开放平台重置</li>
+</ul>
+</blockquote>
+<h3 id="2-4-配置权限"><a href="#2-4-配置权限" class="headerlink" title="2.4 配置权限"></a>2.4 配置权限</h3><p>为了让机器人能够接收和发送消息，我们需要配置相应的权限。</p>
+<p>点击左侧菜单 <strong>「权限」</strong>，切换到 <strong>「权限配置」</strong> 标签页。</p>
+<p>点击右上角的 <strong>「批量导入」</strong> 按钮，在弹出的文本框中粘贴以下 JSON：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;scopes&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;tenant&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="string">&quot;aily:file:read&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;aily:file:write&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;application:application.app_message_stats.overview:readonly&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;application:application:self_manage&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;application:bot.menu:write&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;contact:user.employee_id:readonly&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;corehr:file:download&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;event:ip_list&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:chat.access_event.bot_p2p_chat:read&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:chat.members:bot_access&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:message&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:message.group_at_msg:readonly&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:message.p2p_msg:readonly&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:message:readonly&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:message:send_as_bot&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:resource&quot;</span></span><br><span class="line">    <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;user&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">      <span class="string">&quot;aily:file:read&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;aily:file:write&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="string">&quot;im:chat.access_event.bot_p2p_chat:read&quot;</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>粘贴完成后，点击 <strong>「批量添加」</strong>。</p>
+<p><img src="./images/feishu-step4-permissions.png" alt="权限配置页面"></p>
+<p><strong>权限说明：</strong></p>
+<table>
+<thead>
+<tr>
+<th>权限名称</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>im:message</code></td>
+<td>接收消息</td>
+</tr>
+<tr>
+<td><code>im:message:send_as_bot</code></td>
+<td>发送消息</td>
+</tr>
+<tr>
+<td><code>im:message:readonly</code></td>
+<td>读取消息</td>
+</tr>
+<tr>
+<td><code>im:resource</code></td>
+<td>上传下载文件</td>
+</tr>
+<tr>
+<td><code>im:chat.members:bot_access</code></td>
+<td>访问群成员</td>
+</tr>
+</tbody></table>
+<h3 id="2-5-开启机器人能力"><a href="#2-5-开启机器人能力" class="headerlink" title="2.5 开启机器人能力"></a>2.5 开启机器人能力</h3><p>点击左侧菜单 <strong>「应用能力」</strong>，然后点击 <strong>「机器人」</strong>。</p>
+<p>在机器人页面：</p>
+<ol>
+<li>点击 <strong>「开启机器人能力」</strong> 开关</li>
+<li>在 <strong>「机器人名称」</strong> 栏填写你的机器人名称（这将是用户在飞书中看到的名字）</li>
+<li>可以选择上传机器人头像</li>
+</ol>
+<p><img src="./images/feishu-step5-bot-capability.png" alt="机器人能力页面"></p>
+<h3 id="2-6-配置事件订阅"><a href="#2-6-配置事件订阅" class="headerlink" title="2.6 配置事件订阅"></a>2.6 配置事件订阅</h3><p>这是最关键的一步！事件订阅决定了机器人能接收哪些消息。</p>
+<blockquote>
+<p>⚠️ <strong>重要提示</strong>：在配置事件订阅之前，请确保你的 OpenClaw 网关已经在运行，否则可能会配置失败。</p>
+</blockquote>
+<p>点击左侧菜单 <strong>「事件订阅」</strong>。</p>
+<h4 id="2-6-1-选择接收方式"><a href="#2-6-1-选择接收方式" class="headerlink" title="2.6.1 选择接收方式"></a>2.6.1 选择接收方式</h4><p>在 <strong>「接收消息」</strong> 部分，选择 <strong>「使用长连接接收事件」</strong>（WebSocket 方式）。</p>
+<p>这种方式不需要公网域名，适合个人开发者使用。</p>
+<h4 id="2-6-2-添加事件"><a href="#2-6-2-添加事件" class="headerlink" title="2.6.2 添加事件"></a>2.6.2 添加事件</h4><p>在 <strong>「订阅事件」</strong> 部分，点击 <strong>「添加事件」</strong>。</p>
+<p>在搜索框中输入 <code>im.message.receive_v1</code>，这是接收消息的事件。</p>
+<p>找到后点击它，然后点击 <strong>「确定」</strong>。</p>
+<p><img src="./images/feishu-step6-event-subscription.png" alt="事件订阅页面"></p>
+<h4 id="2-6-3-关键事件列表"><a href="#2-6-3-关键事件列表" class="headerlink" title="2.6.3 关键事件列表"></a>2.6.3 关键事件列表</h4><p>以下是推荐订阅的事件：</p>
+<table>
+<thead>
+<tr>
+<th>事件名称</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>im.message.receive_v1</code></td>
+<td>接收消息（必选）</td>
+</tr>
+<tr>
+<td><code>im.chat.access_event.bot_p2p_chat</code></td>
+<td>用户开始私聊机器人</td>
+</tr>
+<tr>
+<td><code>im.chat.access_event.bot_added_to_chat</code></td>
+<td>机器人被添加到群聊</td>
+</tr>
+<tr>
+<td><code>im.chat.access_event.bot_removed_from_chat</code></td>
+<td>机器人被移出群聊</td>
+</tr>
+</tbody></table>
+<h3 id="2-7-发布应用"><a href="#2-7-发布应用" class="headerlink" title="2.7 发布应用"></a>2.7 发布应用</h3><p>完成以上配置后，你需要发布应用才能正式使用。</p>
+<p>点击左侧菜单 <strong>「版本管理与发布」</strong>。</p>
+<ol>
+<li>点击 <strong>「创建新版本」</strong></li>
+<li>填写版本号（如 <code>1.0.0</code>）和更新说明</li>
+<li>点击 <strong>「提交发布」</strong></li>
+</ol>
+<p>提交后，如果是企业自建应用，通常不需要审批即可使用。如果是付费企业应用，可能需要管理员审批。</p>
+<p><img src="./images/feishu-step7-publish.png" alt="发布页面"></p>
+<hr>
+<h2 id="第三步：配置-OpenClaw"><a href="#第三步：配置-OpenClaw" class="headerlink" title="第三步：配置 OpenClaw"></a>第三步：配置 OpenClaw</h2><p>现在我们已经创建好了飞书应用，接下来需要告诉 OpenClaw 如何连接到这个应用。</p>
+<h3 id="3-1-方法一：使用配置向导（推荐）"><a href="#3-1-方法一：使用配置向导（推荐）" class="headerlink" title="3.1 方法一：使用配置向导（推荐）"></a>3.1 方法一：使用配置向导（推荐）</h3><p>这是最简单的方式，适合大多数用户。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 运行配置向导</span></span><br><span class="line">openclaw channels add</span><br></pre></td></tr></table></figure>
+
+<p>终端会显示交互式菜单：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">请选择要添加的渠道：</span><br><span class="line">1. Telegram</span><br><span class="line">2. Discord</span><br><span class="line">3. Slack</span><br><span class="line">4. Feishu</span><br><span class="line">5. WhatsApp</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>输入 <code>4</code> 选择 Feishu，然后按照提示输入：</p>
+<ul>
+<li><strong>App ID</strong>：粘贴你之前保存的 App ID</li>
+<li><strong>App Secret</strong>：粘贴你之前保存的 App Secret</li>
+</ul>
+<h3 id="3-2-方法二：手动配置文件"><a href="#3-2-方法二：手动配置文件" class="headerlink" title="3.2 方法二：手动配置文件"></a>3.2 方法二：手动配置文件</h3><p>如果你更倾向于手动配置，或者需要更复杂的配置，可以直接编辑配置文件。</p>
+<p>OpenClaw 的配置文件位于 <code>~/.openclaw/openclaw.json</code>。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 编辑配置文件</span></span><br><span class="line">nano ~/.openclaw/openclaw.json</span><br></pre></td></tr></table></figure>
+
+<p>添加或修改 <code>channels</code> 部分：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;enabled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;dmPolicy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;pairing&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;accounts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;appId&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cli_xxxxxxxxxxxxxxxx&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;appSecret&quot;</span><span class="punctuation">:</span> <span class="string">&quot;你的AppSecret&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;botName&quot;</span><span class="punctuation">:</span> <span class="string">&quot;OpenClaw AI&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-3-方法三：环境变量"><a href="#3-3-方法三：环境变量" class="headerlink" title="3.3 方法三：环境变量"></a>3.3 方法三：环境变量</h3><p>如果你使用 Docker 或其他容器化部署，环境变量会更方便。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 设置环境变量</span></span><br><span class="line"><span class="built_in">export</span> FEISHU_APP_ID=<span class="string">&quot;cli_xxxxxxxxxxxxxxxx&quot;</span></span><br><span class="line"><span class="built_in">export</span> FEISHU_APP_SECRET=<span class="string">&quot;你的AppSecret&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-4-国际版-Lark-配置"><a href="#3-4-国际版-Lark-配置" class="headerlink" title="3.4 国际版 Lark 配置"></a>3.4 国际版 Lark 配置</h3><p>如果你的飞书账号是国际版（Lark），需要额外配置 domain：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;domain&quot;</span><span class="punctuation">:</span> <span class="string">&quot;lark&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;accounts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;appId&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cli_xxxxxxxxxxxxxxxx&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;appSecret&quot;</span><span class="punctuation">:</span> <span class="string">&quot;你的AppSecret&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-5-配置参数说明"><a href="#3-5-配置参数说明" class="headerlink" title="3.5 配置参数说明"></a>3.5 配置参数说明</h3><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>说明</th>
+<th>可选值</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>enabled</code></td>
+<td>boolean</td>
+<td>是否启用飞书渠道</td>
+<td>true/false</td>
+</tr>
+<tr>
+<td><code>domain</code></td>
+<td>string</td>
+<td>API 域名</td>
+<td>feishu/lark</td>
+</tr>
+<tr>
+<td><code>dmPolicy</code></td>
+<td>string</td>
+<td>私聊策略</td>
+<td>pairing/allowlist/open/disabled</td>
+</tr>
+<tr>
+<td><code>groupPolicy</code></td>
+<td>string</td>
+<td>群聊策略</td>
+<td>open/allowlist/disabled</td>
+</tr>
+<tr>
+<td><code>streaming</code></td>
+<td>boolean</td>
+<td>是否启用流式输出</td>
+<td>true/false</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="第四步：启动与测试"><a href="#第四步：启动与测试" class="headerlink" title="第四步：启动与测试"></a>第四步：启动与测试</h2><h3 id="4-1-启动网关"><a href="#4-1-启动网关" class="headerlink" title="4.1 启动网关"></a>4.1 启动网关</h3><p>配置完成后，现在启动 OpenClaw 网关：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动网关</span></span><br><span class="line">openclaw gateway</span><br></pre></td></tr></table></figure>
+
+<p>你应该看到类似输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">🚀 启动网关...</span><br><span class="line">✅ 网关已启动</span><br><span class="line">📡 正在连接飞书...</span><br><span class="line">✅ 飞书连接成功</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-2-检查状态"><a href="#4-2-检查状态" class="headerlink" title="4.2 检查状态"></a>4.2 检查状态</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看网关状态</span></span><br><span class="line">openclaw gateway status</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-3-在飞书中找到你的机器人"><a href="#4-3-在飞书中找到你的机器人" class="headerlink" title="4.3 在飞书中找到你的机器人"></a>4.3 在飞书中找到你的机器人</h3><ol>
+<li>打开飞书应用</li>
+<li>在搜索框中搜索你的机器人名称</li>
+<li>点击进入聊天窗口</li>
+</ol>
+<h3 id="4-4-发送测试消息"><a href="#4-4-发送测试消息" class="headerlink" title="4.4 发送测试消息"></a>4.4 发送测试消息</h3><p>向机器人发送一条消息，比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">你好！请介绍一下你自己。</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-5-配对授权（首次使用）"><a href="#4-5-配对授权（首次使用）" class="headerlink" title="4.5 配对授权（首次使用）"></a>4.5 配对授权（首次使用）</h3><p>如果你的 <code>dmPolicy</code> 设置为 <code>pairing</code>（默认），首次使用时需要配对。</p>
+<p>机器人会回复你一个配对码，格式类似：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">🔐 配对码：ABC123</span><br><span class="line">请让管理员运行以下命令授权：</span><br><span class="line">openclaw pairing approve feishu ABC123</span><br></pre></td></tr></table></figure>
+
+<p>你需要（或者让管理员）运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看配对请求</span></span><br><span class="line">openclaw pairing list feishu</span><br><span class="line"></span><br><span class="line"><span class="comment"># 批准配对</span></span><br><span class="line">openclaw pairing approve feishu ABC123</span><br></pre></td></tr></table></figure>
+
+<p>配对成功后，就可以正常对话了！</p>
+<hr>
+<h2 id="高级配置"><a href="#高级配置" class="headerlink" title="高级配置"></a>高级配置</h2><h3 id="5-1-群聊配置"><a href="#5-1-群聊配置" class="headerlink" title="5.1 群聊配置"></a>5.1 群聊配置</h3><h4 id="5-1-1-群聊策略"><a href="#5-1-1-群聊策略" class="headerlink" title="5.1.1 群聊策略"></a>5.1.1 群聊策略</h4><p>控制机器人是否响应群聊消息：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;groupPolicy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;open&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>值</th>
+<th>说明</th>
+<th>适用场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>open</code></td>
+<td>允许所有群聊</td>
+<td>公开社群</td>
+</tr>
+<tr>
+<td><code>allowlist</code></td>
+<td>只允许白名单群聊</td>
+<td>企业内部</td>
+</tr>
+<tr>
+<td><code>disabled</code></td>
+<td>禁用群聊</td>
+<td>仅私聊</td>
+</tr>
+</tbody></table>
+<h4 id="5-1-2-mention-设置"><a href="#5-1-2-mention-设置" class="headerlink" title="5.1.2 @mention 设置"></a>5.1.2 @mention 设置</h4><p>默认情况下，用户需要在群聊中 @机器人才会回复。如果你想改变这个行为：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;groups&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;oc_xxxxxxxxxxxx&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;requireMention&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>📌 <strong>如何获取群聊 ID？</strong></p>
+<ol>
+<li>让机器人在群里发送一条消息</li>
+<li>运行 <code>openclaw logs --follow</code> 查看日志</li>
+<li>日志中会显示 <code>chat_id</code>，格式为 <code>oc_xxx</code></li>
+</ol>
+</blockquote>
+<h3 id="5-2-流式输出"><a href="#5-2-流式输出" class="headerlink" title="5.2 流式输出"></a>5.2 流式输出</h3><p>飞书支持流式卡片输出，让 AI 的回复像打字机一样逐字显示：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;streaming&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;blockStreaming&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>streaming</code>: 启用流式卡片输出</li>
+<li><code>blockStreaming</code>: 启用块级流式输出（更流畅）</li>
+</ul>
+<h3 id="5-3-多机器人配置"><a href="#5-3-多机器人配置" class="headerlink" title="5.3 多机器人配置"></a>5.3 多机器人配置</h3><p>如果需要同时运行多个飞书机器人：</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;accounts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;appId&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cli_xxx1&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;appSecret&quot;</span><span class="punctuation">:</span> <span class="string">&quot;xxx1&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;botName&quot;</span><span class="punctuation">:</span> <span class="string">&quot;主机器人&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;backup&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;appId&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cli_xxx2&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;appSecret&quot;</span><span class="punctuation">:</span> <span class="string">&quot;xxx2&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;botName&quot;</span><span class="punctuation">:</span> <span class="string">&quot;备用机器人&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;enabled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-4-消息限制设置"><a href="#5-4-消息限制设置" class="headerlink" title="5.4 消息限制设置"></a>5.4 消息限制设置</h3><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;textChunkLimit&quot;</span><span class="punctuation">:</span> <span class="number">2000</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;mediaMaxMb&quot;</span><span class="punctuation">:</span> <span class="number">30</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>textChunkLimit</code>: 单条消息最大字符数（飞书限制 2000）</li>
+<li><code>mediaMaxMb</code>: 媒体文件大小限制（MB）</li>
+</ul>
+<hr>
+<h2 id="常用命令一览"><a href="#常用命令一览" class="headerlink" title="常用命令一览"></a>常用命令一览</h2><h3 id="网关管理"><a href="#网关管理" class="headerlink" title="网关管理"></a>网关管理</h3><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>openclaw gateway</code></td>
+<td>启动网关</td>
+</tr>
+<tr>
+<td><code>openclaw gateway status</code></td>
+<td>查看网关状态</td>
+</tr>
+<tr>
+<td><code>openclaw gateway stop</code></td>
+<td>停止网关</td>
+</tr>
+<tr>
+<td><code>openclaw gateway restart</code></td>
+<td>重启网关</td>
+</tr>
+</tbody></table>
+<h3 id="日志查看"><a href="#日志查看" class="headerlink" title="日志查看"></a>日志查看</h3><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>openclaw logs</code></td>
+<td>查看日志</td>
+</tr>
+<tr>
+<td><code>openclaw logs --follow</code></td>
+<td>实时查看日志（类似 tail -f）</td>
+</tr>
+<tr>
+<td><code>openclaw logs --lines 100</code></td>
+<td>查看最近 100 行日志</td>
+</tr>
+</tbody></table>
+<h3 id="配对管理"><a href="#配对管理" class="headerlink" title="配对管理"></a>配对管理</h3><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>openclaw pairing list feishu</code></td>
+<td>查看所有配对请求</td>
+</tr>
+<tr>
+<td><code>openclaw pairing approve feishu &lt;CODE&gt;</code></td>
+<td>批准配对</td>
+</tr>
+<tr>
+<td><code>openclaw pairing reject feishu &lt;CODE&gt;</code></td>
+<td>拒绝配对</td>
+</tr>
+</tbody></table>
+<h3 id="飞书内命令"><a href="#飞书内命令" class="headerlink" title="飞书内命令"></a>飞书内命令</h3><p>用户可以在飞书中发送以下命令：</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>/status</code></td>
+<td>查看机器人状态</td>
+</tr>
+<tr>
+<td><code>/reset</code></td>
+<td>重置当前会话</td>
+</tr>
+<tr>
+<td><code>/model</code></td>
+<td>查看/切换模型</td>
+</tr>
+<tr>
+<td><code>/help</code></td>
+<td>查看帮助信息</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="常见问题与解决方案"><a href="#常见问题与解决方案" class="headerlink" title="常见问题与解决方案"></a>常见问题与解决方案</h2><h3 id="Q1-机器人一直不回复消息"><a href="#Q1-机器人一直不回复消息" class="headerlink" title="Q1: 机器人一直不回复消息"></a>Q1: 机器人一直不回复消息</h3><p><strong>可能原因：</strong></p>
+<ol>
+<li><strong>应用未发布</strong>：检查应用是否已发布</li>
+<li><strong>事件订阅未配置</strong>：确认已添加 <code>im.message.receive_v1</code> 事件</li>
+<li><strong>网关未启动</strong>：运行 <code>openclaw gateway status</code> 检查</li>
+<li><strong>权限不足</strong>：检查权限配置是否完整</li>
+</ol>
+<p><strong>排查步骤：</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 检查网关状态</span></span><br><span class="line">openclaw gateway status</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 查看实时日志</span></span><br><span class="line">openclaw logs --follow</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 重启网关</span></span><br><span class="line">openclaw gateway restart</span><br></pre></td></tr></table></figure>
+
+<h3 id="Q2-群聊中无法-机器人"><a href="#Q2-群聊中无法-机器人" class="headerlink" title="Q2: 群聊中无法@机器人"></a>Q2: 群聊中无法@机器人</h3><p><strong>可能原因：</strong></p>
+<ol>
+<li>机器人不在群聊中</li>
+<li><code>groupPolicy</code> 设置为 <code>disabled</code></li>
+<li>未正确 @机器人</li>
+</ol>
+<p><strong>解决方案：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;groupPolicy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;open&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Q3-消息发送失败"><a href="#Q3-消息发送失败" class="headerlink" title="Q3: 消息发送失败"></a>Q3: 消息发送失败</h3><p><strong>可能原因：</strong></p>
+<ol>
+<li>权限不足（缺少 <code>im:message:send_as_bot</code>）</li>
+<li>应用未发布</li>
+<li>消息过长</li>
+</ol>
+<p><strong>解决方案：</strong></p>
+<ol>
+<li>在飞书开放平台检查权限</li>
+<li>确保应用已发布</li>
+<li>缩短消息长度，或开启自动分片</li>
+</ol>
+<h3 id="Q4-App-Secret-泄露了怎么办？"><a href="#Q4-App-Secret-泄露了怎么办？" class="headerlink" title="Q4: App Secret 泄露了怎么办？"></a>Q4: App Secret 泄露了怎么办？</h3><p><strong>解决方案：</strong></p>
+<ol>
+<li>登录飞书开放平台</li>
+<li>进入 <strong>凭证与基础信息</strong></li>
+<li>点击 <strong>重置 App Secret</strong></li>
+<li>使用新密钥更新 OpenClaw 配置</li>
+<li>重启网关</li>
+</ol>
+<h3 id="Q5-如何查看用户-群聊-ID？"><a href="#Q5-如何查看用户-群聊-ID？" class="headerlink" title="Q5: 如何查看用户/群聊 ID？"></a>Q5: 如何查看用户/群聊 ID？</h3><p><strong>方法一：通过日志</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openclaw logs --follow</span><br></pre></td></tr></table></figure>
+
+<p>当用户发送消息时，日志会显示：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">📥 收到消息 from user:ou_xxxxxxxx (私聊)</span><br><span class="line">📥 收到消息 from chat:oc_xxxxxxxx (群聊)</span><br></pre></td></tr></table></figure>
+
+<p><strong>方法二：通过配对请求</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openclaw pairing list feishu</span><br></pre></td></tr></table></figure>
+
+<p>输出中会显示用户的 Open ID。</p>
+<hr>
+<h2 id="配置参数详解"><a href="#配置参数详解" class="headerlink" title="配置参数详解"></a>配置参数详解</h2><h3 id="完整配置示例"><a href="#完整配置示例" class="headerlink" title="完整配置示例"></a>完整配置示例</h3><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;channels&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;feishu&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">      <span class="attr">&quot;enabled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;domain&quot;</span><span class="punctuation">:</span> <span class="string">&quot;feishu&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;connectionMode&quot;</span><span class="punctuation">:</span> <span class="string">&quot;websocket&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;dmPolicy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;pairing&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;allowFrom&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;groupPolicy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;open&quot;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;groupAllowFrom&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;textChunkLimit&quot;</span><span class="punctuation">:</span> <span class="number">2000</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;mediaMaxMb&quot;</span><span class="punctuation">:</span> <span class="number">30</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;streaming&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;blockStreaming&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;accounts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;appId&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cli_xxx&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;appSecret&quot;</span><span class="punctuation">:</span> <span class="string">&quot;xxx&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;botName&quot;</span><span class="punctuation">:</span> <span class="string">&quot;AI助手&quot;</span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;enabled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">      <span class="attr">&quot;groups&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;oc_xxx&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">          <span class="attr">&quot;enabled&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span></span><br><span class="line">          <span class="attr">&quot;requireMention&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">      <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="参数详细说明"><a href="#参数详细说明" class="headerlink" title="参数详细说明"></a>参数详细说明</h3><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>enabled</code></td>
+<td>boolean</td>
+<td>true</td>
+<td>是否启用</td>
+</tr>
+<tr>
+<td><code>domain</code></td>
+<td>string</td>
+<td>feishu</td>
+<td>API 域名 (feishu/lark)</td>
+</tr>
+<tr>
+<td><code>connectionMode</code></td>
+<td>string</td>
+<td>websocket</td>
+<td>连接模式 (websocket/webhook)</td>
+</tr>
+<tr>
+<td><code>dmPolicy</code></td>
+<td>string</td>
+<td>pairing</td>
+<td>私聊策略</td>
+</tr>
+<tr>
+<td><code>groupPolicy</code></td>
+<td>string</td>
+<td>open</td>
+<td>群聊策略</td>
+</tr>
+<tr>
+<td><code>textChunkLimit</code></td>
+<td>number</td>
+<td>2000</td>
+<td>消息分块大小</td>
+</tr>
+<tr>
+<td><code>mediaMaxMb</code></td>
+<td>number</td>
+<td>30</td>
+<td>媒体文件限制</td>
+</tr>
+<tr>
+<td><code>streaming</code></td>
+<td>boolean</td>
+<td>true</td>
+<td>流式输出</td>
+</tr>
+<tr>
+<td><code>blockStreaming</code></td>
+<td>boolean</td>
+<td>true</td>
+<td>块级流式输出</td>
+</tr>
+</tbody></table>
+<hr>
+<h2 id="总结与后续"><a href="#总结与后续" class="headerlink" title="总结与后续"></a>总结与后续</h2><h3 id="恭喜你！🎉"><a href="#恭喜你！🎉" class="headerlink" title="恭喜你！🎉"></a>恭喜你！🎉</h3><p>如果你已经完成以上所有步骤，那么恭喜你！你已经成功将 OpenClaw 对接到了飞书。</p>
+<p>现在你可以：</p>
+<ul>
+<li>✅ 在飞书私聊中与 AI 对话</li>
+<li>✅ 在群聊中 @AI 助手</li>
+<li>✅ 自定义配置打造专属 AI</li>
+</ul>
+<h3 id="后续探索"><a href="#后续探索" class="headerlink" title="后续探索"></a>后续探索</h3><ul>
+<li>📖 阅读 <a href="https://docs.openclaw.ai">OpenClaw 官方文档</a> 学习更多</li>
+<li>🤖 配置其他渠道（Telegram、Discord 等）</li>
+<li>🧠 定制专属的 AI 角色和技能</li>
+<li>🔧 集成到你的工作流中</li>
+</ul>
+<h3 id="获取帮助"><a href="#获取帮助" class="headerlink" title="获取帮助"></a>获取帮助</h3><p>如果遇到问题：</p>
+<ol>
+<li>查看日志：<code>openclaw logs --follow</code></li>
+<li>查阅文档：<a href="https://docs.openclaw.ai">https://docs.openclaw.ai</a></li>
+<li>社区支持：<a href="https://discord.gg/clawd">https://discord.gg/clawd</a></li>
+<li>GitHub Issue：<a href="https://github.com/openclaw/openclaw/issues">https://github.com/openclaw/openclaw/issues</a></li>
+</ol>
+<hr>
+<p><strong>Happy coding! 🚀</strong></p>
+<hr>
+<p><em>本文档基于 OpenClaw v最新版本编写，如有问题欢迎反馈。</em></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2026</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">Zhu Puwen</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+<script color="0,0,255" count="99" opacity="0.5" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.min.js"></script>
+
+</body>
+</html>
